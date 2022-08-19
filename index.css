@@ -1,5 +1,5 @@
 .body {
-  background-color: #333646;
+  background-color: #252734;
 }
 
 .logonav {
@@ -44,10 +44,10 @@
   display: block;
   margin-top: 100px;
   margin-bottom: 10px;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 18px;
+  padding-bottom: 18px;
   color: #514949;
   text-decoration: none;
   background-color: #ffc25c;
@@ -166,22 +166,61 @@
 }
 
 .Aboutme {
-  background-color: #333646;
-  font-family: Arial;
-  font-style: normal;
-  font-weight: normal;
   font-size: 20px;
-  width: 100%;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  text-align: justify;
-  letter-spacing: -0.01em;
+  width: 60%;
   color: #eaebec;
+  margin: 50px 20% 0px 20%;
+  line-height: 30px;
+  background-color: #333646;
+  padding: 20px 60px;
+}
+
+.getoknow {
+  margin: 0px 43.5% 20px 43%;
+}
+
+.me {
+  margin: 0px 42% 0px 42%;
 }
 
 .Devtools {
+
+  color: #ffffff;
+}
+
+.frontend {
   background-color: #333646;
+  min-width: 40%;
+  margin-right: 20px;
+
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+}
+
+.htmlcss {
+  margin-right: 25%;
+}
+
+.gitgithub {
+  margin-left: 25%;
+}
+
+.singular {
+  margin-bottom: 40px;
+}
+
+.others {
+  background-color: #333646;
+  min-width: 35%;
+  margin-left: 20px;
+}
+
+.frontothers {
+  display: flex;
+  justify-content: center;
 }
 
 .toolslogos * {
