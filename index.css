@@ -169,10 +169,10 @@
   font-size: 20px;
   width: 60%;
   color: #eaebec;
-  margin: 50px 20% 0px 20%;
+  margin: 50px 20% 50px 18%;
   line-height: 30px;
   background-color: #333646;
-  padding: 20px 60px;
+  padding: 20px 30px 20px 30px;
 }
 
 .getoknow {
@@ -190,14 +190,16 @@
 
 .frontend {
   background-color: #333646;
-  min-width: 40%;
+  min-width: 30%;
   margin-right: 20px;
+
 
 }
 
 .skills {
   display: flex;
   justify-content: center;
+  
 }
 
 .htmlcss {
