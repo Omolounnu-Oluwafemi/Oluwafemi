@@ -132,12 +132,15 @@
 
   .me {
     background-color: #333646;
-    padding: 40px 40px 40px 40px;
+    padding: 40px 60px 20px 60px;
+    border-radius: 30px;
+    margin-top: 50px;
   }
 
   .getoknow {
     margin-top: 70px;
     margin-bottom: -25px;
+    text-align: center;
   }
 
   .empty {

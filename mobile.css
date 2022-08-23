@@ -113,7 +113,6 @@
         width: 100%;
         height: 30px;
         margin-bottom: 0px;
-
     }
 
     .empty {
@@ -122,7 +121,7 @@
 
     .Aboutme {
         font-size: 20px;
-        width: 90%;
+        width: 95%;
         color: #eaebec;
         margin: auto;
         line-height: 30px;
@@ -131,15 +130,54 @@
     .me {
         background-color: #333646;
         padding: 40px 40px 40px 40px;
+        border-radius: 30px;
+        margin-top: 0px;
     }
 
     .getoknow {
         margin-bottom: -25px;
+        text-align: center;
+        color: #eaebec;
+    }
+
+    .Devtools {
+        margin-top: 50px;
+        width: 75%;
+        margin: auto;
+    }
+
+    .dev {
+        text-align: center;
+        color: #ffc25c;
+        margin-bottom: 50px;
+        margin-top: 30px;
+    }
+
+    .frontend {
+        background-color: #333646;
+        padding: 15px 40px 20px 40px;
+        border-radius: 15px;
+        color: #eaebec;
+    }
+
+    .skills {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .devlogo {
+        width: 40px;
+        height: 40px
+    }
+
+    .logotext {
+        margin-bottom: -1.3px;
+        color: #ffc25c;
+        margin-top: -05px;
     }
 }
 
 @media screen and (max-width:430px) {
-
     .img_resume {
         width: 20%;
         margin-top: -8px;
@@ -150,9 +188,6 @@
     .resume {
         display: block;
         margin-top: 0px;
-        /* margin-bottom: 10px;
-        margin-left: 35%; */
-        /* padding-left: 20%;*/
         margin: auto;
         padding-right: 3%;
         padding-top: 18px;
@@ -173,15 +208,18 @@
         color: #eaebec;
         margin: auto;
         line-height: 30px;
-
     }
 
     .me {
         background-color: #333646;
-        padding: 40px 40px 40px 40px;
+        padding: 40px 40px 20px 40px;
+        border-radius: 30px;
+        margin-top: 50px;
     }
 
     .getoknow {
         margin-bottom: -25px;
+        text-align: center;
+        color: #eaebec;
     }
 }
