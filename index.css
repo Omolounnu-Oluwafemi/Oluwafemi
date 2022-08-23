@@ -46,6 +46,7 @@
     margin-top: -8px;
     margin-right: 10px;
     margin-left: 20px;
+    height: 25px;
   }
 
   .resume {
@@ -61,11 +62,12 @@
     background-color: #ffc25c;
     border: none;
     border-radius: 20px;
+    /* justify-content: center; */
   }
 
-  .container-fluid {
+  /* .container-fluid {
     background-color: #61657a;
-  }
+  } */
 
   .hero {
     display: flex;
@@ -124,19 +126,22 @@
     font-size: 20px;
     width: 60%;
     color: #eaebec;
-    margin: 50px 20% 50px 18%;
+    margin: auto;
     line-height: 30px;
-    background-color: #333646;
-    padding: 20px 30px 20px 30px;
-
-  }
-
-  .getoknow {
-    margin: 0px 43.5% 20px 43%;
   }
 
   .me {
-    margin: 0px 42% 0px 42%;
+    background-color: #333646;
+    padding: 40px 40px 40px 40px;
+  }
+
+  .getoknow {
+    margin-top: 70px;
+    margin-bottom: -25px;
+  }
+
+  .empty {
+    display: none;
   }
 
   .Devtools {
