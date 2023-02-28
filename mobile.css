@@ -231,7 +231,7 @@
         margin-left: 20px;
         background-color: #051434;
         color: #ffe5b4;
-        border: #ffa500 solid 1px;
+        /* border: #ffa500 solid 1px; */
     }
 
     .button_together {
@@ -296,6 +296,7 @@
         padding-top: 20px;
         padding-bottom: 30px;
         margin-bottom: 20px;
+
     }
 
     .dev {
@@ -353,16 +354,17 @@
         padding-top: 10%;
         margin-top: 30px;
         border-radius: 20px;
+        border: #ffa500 solid 0.1px;
     }
 
     .work_button {
-        height: 37px;
-        width: 80px;
+        height: 25px;
+        width: 68px;
         margin-top: 10px;
         margin-left: 10px;
-        background-color: #051434;
+        background-color: #042467;
         color: #ffe5b4;
-        border: #ffa500 solid 1px;
+        /* border: #ffa500 solid 1px; */
     }
 
     .button_together {
