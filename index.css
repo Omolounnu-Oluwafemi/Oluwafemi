@@ -6,7 +6,7 @@
 
 
   .body {
-    background-color: #252734;
+    background-color: #333646;
   }
 
   .logonav {
@@ -45,6 +45,10 @@
     margin-right: 30px;
     color: #ffffff;
     text-decoration: none;
+  }
+
+  #menu {
+    display: none;
   }
 
   .img_resume {
@@ -90,6 +94,10 @@
     width: 650px;
     margin-left: 70px;
     max-height: 600px;
+  }
+
+  #oluwafemi {
+    display: none;
   }
 
   .myname {
