@@ -1,6 +1,6 @@
 @media screen and (max-width:799px) {
     .body {
-        background-color: #031845;
+        background-color: #333646;
         color: #ffe5b4;
     }
 
@@ -20,6 +20,111 @@
         display: none;
     }
 
+    #menu {
+        z-index: 2;
+        position: absolute;
+        top: 5px;
+        right: 10%;
+    }
+
+    #menu-bar {
+        width: 45px;
+        height: 40px;
+        margin: 30px 0 20px 90%;
+        cursor: pointer;
+    }
+
+    .bar {
+        height: 5px;
+        width: 100%;
+        background-color: #ffe5b4;
+        display: block;
+        border-radius: 5px;
+        transition: 0.3s ease;
+    }
+
+    #bar1 {
+        transform: translateY(-4px);
+    }
+
+    #bar3 {
+        transform: translateY(4px);
+    }
+
+    .nav {
+        transition: 0.3s ease;
+        display: none;
+        margin-left: 70%;
+    }
+
+    .nav ul {
+        padding: 0 22px;
+
+    }
+
+    .nav li {
+        list-style: none;
+        padding: 12px 0;
+
+    }
+
+    .nav li a {
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+    }
+
+    .nav li a:hover {
+        font-weight: bold;
+    }
+
+    .menu-bg,
+    #menu {
+        top: 0;
+        left: 0;
+        position: absolute;
+        /* position: fixed;
+        top: 5px;
+        left: 10%; */
+        /* margin-right: 70%; */
+    }
+
+    .menu-bg {
+        z-index: 1;
+        width: 0;
+        height: 0;
+        margin: 0 0 0 100%;
+        background: radial-gradient(circle, #DC052D, #DC052D);
+        border-radius: 50%;
+        transition: 0.3s ease;
+    }
+
+    .change {
+        display: block;
+    }
+
+    .change .bar {
+        background-color: white;
+    }
+
+    .change #bar1 {
+        transform: translateY(4px) rotateZ(-45deg);
+    }
+
+    .change #bar2 {
+        opacity: 0;
+    }
+
+    .change #bar3 {
+        transform: translateY(-6px) rotateZ(45deg);
+    }
+
+    .change-bg {
+        width: 520px;
+        height: 460px;
+        transform: translate(-60%, -30%);
+    }
+
     .hero {
         display: block;
         color: #ffe5b4;
@@ -27,25 +132,29 @@
 
     .Oluwafemi {
         width: 100%;
-        margin-top: 50px;
+        margin-top: 100px;
         display: block;
     }
 
     .oluwafemi {
-        width: 70%;
+        display: none;
+    }
+
+    #oluwafemi {
+        width: 60%;
         min-height: 150px;
-        margin-left: 14.5%;
-        border: solid;
+        margin-left: 20%;
+        /* border: solid; */
         border-color: #ffe5b4;
         justify-self: center;
     }
+
 
     .myname {
         margin-top: 50px;
         letter-spacing: 2px;
         margin-left: 0px;
         text-align: center;
-        font-family: 'Sofia', cursive;
     }
 
     .hi {
@@ -55,6 +164,7 @@
     .femi {
         margin-top: 0px;
         margin-bottom: 20px;
+        font-family: 'Sofia', cursive;
     }
 
     .prof {
