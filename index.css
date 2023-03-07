@@ -1,4 +1,10 @@
 @media screen and (min-width:800px) {
+  @import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+
+  /* font-family: 'Mynerve', cursive; */
+
+
   .body {
     background-color: #252734;
   }
@@ -90,6 +96,7 @@
     margin-top: 200px;
     letter-spacing: 2px;
     margin-left: -100px;
+
   }
 
   .line {
@@ -115,6 +122,7 @@
   .femi {
     margin-top: 0px;
     margin-bottom: 50px;
+    font-family: 'Sofia', cursive;
   }
 
   .prof {
