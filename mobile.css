@@ -58,20 +58,30 @@
     }
 
     .nav ul {
-        padding: 0 22px;
-
+        padding: 0 10px;
+        margin-top: 120px;
     }
 
     .nav li {
         list-style: none;
-        padding: 12px 0;
-
+        padding: 10px 0px 30px;
     }
 
     .nav li a {
-        color: white;
-        font-size: 20px;
+        color: #333646;
+        font-size: 15px;
         text-decoration: none;
+        background-color: #ffc25c;
+        padding: 10px 25px;
+        border-radius: 8px;
+    }
+
+    #port {
+        padding: 10px 17.5px;
+    }
+
+    #cont {
+        padding: 10px 20.5px;
     }
 
     .nav li a:hover {
@@ -83,17 +93,13 @@
         top: 0;
         left: 0;
         position: absolute;
-        /* position: fixed;
-        top: 5px;
-        left: 10%; */
-        /* margin-right: 70%; */
     }
 
     .menu-bg {
         z-index: 1;
         width: 0;
         height: 0;
-        margin: 0 0 0 100%;
+        margin: 0 0 0 0;
         background: radial-gradient(circle, #DC052D, #DC052D);
         border-radius: 50%;
         transition: 0.3s ease;
@@ -104,7 +110,7 @@
     }
 
     .change .bar {
-        background-color: white;
+        background-color: #ffc25c;
     }
 
     .change #bar1 {
@@ -127,7 +133,6 @@
 
     .hero {
         display: block;
-        color: #ffe5b4;
     }
 
     .Oluwafemi {
@@ -142,7 +147,7 @@
 
     #oluwafemi {
         width: 60%;
-        min-height: 150px;
+        height: 220px;
         margin-left: 20%;
         /* border: solid; */
         border-color: #ffe5b4;
@@ -159,15 +164,18 @@
 
     .hi {
         margin-bottom: 10px;
+        color: #ffffff;
     }
 
     .femi {
         margin-top: 0px;
         margin-bottom: 20px;
         font-family: 'Sofia', cursive;
+        color: #ffc25c;
     }
 
     .prof {
+        color: #ffffff;
         margin-bottom: 70px;
         line-height: 35px;
     }
