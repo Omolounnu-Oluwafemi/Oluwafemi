@@ -37,7 +37,7 @@
     .bar {
         height: 5px;
         width: 100%;
-        background-color: #ffe5b4;
+        background-color: #ffc25c;
         display: block;
         border-radius: 5px;
         transition: 0.3s ease;
@@ -178,6 +178,7 @@
         color: #ffffff;
         margin-bottom: 70px;
         line-height: 35px;
+        margin-bottom: 25px;
     }
 
     .img_resume {
@@ -186,42 +187,62 @@
         margin-right: 10%;
         margin-left: 40%;
         height: 25px;
+
     }
 
     .resume_button {
-        display: flex;
         margin-top: 0px;
         margin: auto;
-        padding-right: 10%;
-        padding-top: 18px;
-        padding-bottom: 18px;
-        color: #514949;
+        color: #ffc25c;
         text-decoration: none;
-        background-color: #ffa500;
-        border: none;
-        border-radius: 20px;
+        background-color: #333646;
+        border: solid 2px #ffc25c;
+        border-radius: 15px;
         justify-self: center;
-        width: 27%;
+        width: 35%;
         height: 45px;
     }
 
     .resume {
-        display: flex;
+        text-align: center;
     }
 
-    .line {
-        display: none;
+    .divsideicons {
+        background-color: #ffc25c;
+        width: 18%;
+        height: 50px;
+        border-radius: 30px 0 0 30px;
+        display: flex;
+        justify-content: center;
+        margin-left: 85%;
+        margin-top: 30px;
+    }
+
+    .sideicon {
+        height: 35px;
+        width: 80%;
+        align-content: center;
+        margin-top: 9px;
+        margin-left: 15%;
+    }
+
+    .heroline {
+        width: 100%;
+        color: #ffa500;
+        height: 10px;
     }
 
     .line_socials {
-        display: block;
-        margin-top: 30px;
+        display: none;
+        /* margin-top: 30px; */
         width: 80%;
         margin-left: 10%;
         margin-right: 10%;
-        padding: 20px 0px 20px 0px;
-        border-radius: 30px;
-        background-color: #042467;
+        /* padding: 10px 0px 10px 0px; */
+        border-radius: 30px 0 0 30px;
+        background-color: #ffc25c;
+        /* height: 50px; */
+        padding-bottom: 0;
     }
 
     .socials {
@@ -230,9 +251,10 @@
     }
 
     .socialicons {
+        height: 35px;
         width: 100%;
-        height: 30px;
-        margin-bottom: 0px;
+        margin-top: 9px;
+        margin-bottom: 9px;
     }
 
     .empty {
@@ -367,9 +389,9 @@
         margin-left: 13%;
     }
 
-    .resume_button {
-        display: none;
-    }
+    /* .resume_button {
+        display: flex;
+    } */
 
     .Aboutme {
         font-size: 20px;
