@@ -2,6 +2,7 @@
     .body {
         background-color: #333646;
         color: #ffe5b4;
+        border: #ffa500 1px solid;
     }
 
     .logonav {
@@ -257,7 +258,7 @@
     }
 
     hr {
-        border-color: #ffc25c;
+        border-color: #ffa500;
         width: 100%;
     }
 
